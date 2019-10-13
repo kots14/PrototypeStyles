@@ -18,7 +18,7 @@ body {
 .background-blank {
   background-color: #ffffff;
 }
-.background-red-light {
+.background-light-red {
   background-color: #ff7065;
 }
 .background-sky-cool {
@@ -31,7 +31,7 @@ body {
 .foreground-blank {
   color: #ffffff;
 }
-.foreground-red-light {
+.foreground-light-red {
   color: #ff7065;
 }
 .foreground-sky-cool {
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
-.btn-red-light {
+.btn-light-red {
   background-color: #ff7065;
   width: 100%;
   border: 1px solid rgba(255, 77, 77, 0.5);
@@ -127,8 +127,22 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #65aaff;
   width: 100%;
   border: 1px solid rgba(105, 161, 219, 0.5);
-  border-radius: 5px;
-  color: white;
+}
+.btn-ash:hover {
+  background-color: rgb(93, 93, 93);
+  border: 1px solid rgba(93, 93, 93, 0.5);
+}
+.btn-blank:hover {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.btn-light-red:hover {
+  background-color: rgb(255, 77, 77);
+  border: 1px solid rgba(255, 77, 77, 0.5);
+}
+.btn-sky-cool:hover {
+  background-color: rgb(105, 161, 219);
+  border: 1px solid rgba(105, 161, 219, 0.5);
 }
 /*other decorations*/
 hr {
