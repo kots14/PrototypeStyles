@@ -24,11 +24,24 @@ body {
 .background-sky-cool {
   background-color: #65aaff;
 }
+/*definition of various foreground colors*/
+.foreground-ash {
+  color: #ececec;
+}
+.foreground-blank {
+  color: #ffffff;
+}
+.foreground-light-warm {
+  color: #ff7065;
+}
+.foreground-sky-cool {
+  color: #65aaff;
+}
 /*continer class definition */
 .container {
   display: flex;
-  flex-flow: column wrap;
-  -webkit-flex-flow: column wrap;
+  flex-flow: column nowrap;
+  -webkit-flex-flow: column nowrap;
   margin: 2rem;
   padding: 1rem;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
@@ -39,26 +52,26 @@ body {
   width: 100%;
 }
 
-.c-1 {width: 8.33%;}
-.c-2 {width: 16.66%;}
-.c-3 {width: 25%;}
-.c-4 {width: 33.33%;}
-.c-5 {width: 41.66%;}
-.c-6 {width: 50%;}
-.c-7 {width: 58.33%;}
-.c-8 {width: 66.66%;}
-.c-9 {width: 75%;}
-.c-10 {width: 83.33%;}
-.c-11 {width: 91.66%;}
-.c-12 {width: 100%;}
+.c-1 {width: 8.33%; display: block; padding: 0.5rem;}
+.c-2 {width: 16.667%; display: block; padding: 0.5rem;}
+.c-3 {width: 25%; display: block; padding: 0.5rem;}
+.c-4 {width: 33.333%;  display: block; padding: 0.5rem;}
+.c-5 {width: 41.667%; display: block; padding: 0.5rem;}
+.c-6 {width: 50%;  display: block; padding: 0.5rem;}
+.c-7 {width: 58.33%; display: block; padding: 0.5rem;}
+.c-8 {width: 66.66%; display: block; padding: 0.5rem;}
+.c-9 {width: 75%; display: block; padding: 0.5rem;}
+.c-10 {width: 83.33%; display: block; padding: 0.5rem;}
+.c-11 {width: 91.66%; display: block; padding: 0.5rem;}
+.c-12 {width: 100%; display: block; padding: 0.5rem;}
 
 /*form input elements*/
 .form-input {
-  margin: 10px;
+  margin: 10px 0px 10px 0px;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
   width: -moz-available;    /* Firefox/Gecko */
   width: -webkit-fill-available; /* Chrome */
-  width: 96%;
+  width: 100%;
 }
 .form-input-lg {
   padding: 15px;
@@ -71,5 +84,10 @@ body {
 .form-input-sm {
   padding: 5px;
   border-radius: 3px;
+}
+/*other form elements*/
+.form-label-1 {
+  font-weight: bold;
+  margin : 10px 0px 10px 0px;
 }
 /*typography*/
