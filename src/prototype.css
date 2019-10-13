@@ -144,6 +144,42 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(105, 161, 219);
   border: 1px solid rgba(105, 161, 219, 0.5);
 }
+.btn-outline-ash {
+  color: #939393;
+  background-color: white;
+  width: 100%;
+  border: 1px solid rgb(93, 93, 93);
+}
+.btn-outline-light-red {
+  color: #ff7065;
+  background-color: white;
+  width: 100%;
+  border: 1px solid rgb(255, 77, 77);
+}
+.btn-outline-sky-cool {
+  color: #65aaff;
+  background-color: white;
+  width: 100%;
+  border: 1px solid rgb(105, 161, 219);
+}
+.btn-outline-ash:hover {
+  color: white;
+  background-color: #939393;
+  width: 100%;
+  border: 1px solid rgb(93, 93, 93);
+}
+.btn-outline-light-red:hover {
+  color: white;
+  background-color: #ff7065;
+  width: 100%;
+  border: 1px solid rgb(255, 77, 77);
+}
+.btn-outline-sky-cool:hover {
+  color: white;
+  background-color: #65aaff;
+  width: 100%;
+  border: 1px solid rgb(105, 161, 219);
+}
 /*other decorations*/
 hr {
   border: 0;
