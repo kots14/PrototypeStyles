@@ -95,6 +95,36 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: lighter;
   margin: 10px;
 }
+/*button decorations*/
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.btn-ash {
+  background-color: #939393;
+  width: 100%;
+  border: 1px solid rgba(93, 93, 93, 0.5);
+}
+.btn-blank {
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.btn-light-warm {
+  background-color: #ff7065;
+  width: 100%;
+  border: 1px solid rgba(255, 77, 77, 0.5);
+}
+.btn-sky-cool {
+  background-color: #65aaff;
+  width: 100%;
+  border: 1px solid rgba(105, 161, 219, 0.5);
+  border-radius: 5px;
+  color: white;
+}
 /*other decorations*/
 hr {
   border: 0;
