@@ -6,3 +6,8 @@ The styles reflects a minimalist approach towards front-end design.
 ### File Structure Description:
 * **/sample** - Contains different sample HTML files created using `prototype.css` 
 * **/src** - Contains the main css file - `prototype.css` 
+
+### License
+----
+
+MIT
