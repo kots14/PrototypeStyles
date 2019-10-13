@@ -87,7 +87,7 @@ body {
 }
 /*other form elements*/
 .form-label-1 {
-  font-weight: bold;
+  font-weight: 500;
   margin : 10px 0px 10px 0px;
 }
 /*typography*/
@@ -103,4 +103,19 @@ hr {
   width: 100%;
   background-color:#bcbcbc;
   height: 1px;
+}
+.full-container-center {
+  width: 100%;
+  left: 0%;
+  position: relative;
+}
+.medium-container-center {
+  width : 60%;
+  left:20%;
+  position: relative;
+}
+.small-container-center {
+  width : 30%;
+  left: 35%;
+  position: relative;
 }
