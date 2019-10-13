@@ -40,8 +40,8 @@ body {
 /*continer class definition */
 .container {
   display: flex;
-  flex-flow: column nowrap;
-  -webkit-flex-flow: column nowrap;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
   margin: 2rem;
   padding: 1rem;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
@@ -91,3 +91,16 @@ body {
   margin : 10px 0px 10px 0px;
 }
 /*typography*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+  margin: 10px;
+}
+/*other decorations*/
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:#bcbcbc;
+  height: 1px;
+}
