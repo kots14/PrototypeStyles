@@ -8,6 +8,4 @@ The styles reflects a minimalist approach towards front-end design.
 * **/src** - Contains the main css file - `prototype.css` 
 
 ### License
-----
-
 MIT
